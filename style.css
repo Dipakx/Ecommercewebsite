@@ -1,0 +1,91 @@
+/* this is defult css styleing to looks good*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* this is defult css styleing to looks good*/
+
+/* this is to hide the scrollbar & make the website respomsive*/
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* this is to hide the scrollbar & make the website respomsive*/
+
+body {
+    background-color: #dbd0bc;
+}
+
+/*style for header*/
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.281);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+/*style for img*/
+
+#ghj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*style for img*/
+
+/*style for li itms*/
+
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+#navbar-1 {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    position: relative;
+}
+
+#navbar-1 li a {
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+#navbar-1 a:hover {
+    color: aqua;
+}
+
+#navbar li a.active {
+    color: aqua;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 10%;
+    height: 2px;
+    background: aqua;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+}
+
+#mobile {
+    display: none;
+}
+
+/*style for li itms*/
+
+/*style for header*/

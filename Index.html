@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>36 - ecommerce website - 9</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header section -->
+
+    <div id="header">
+        <div id="ghj">
+            <a href="#">
+                <img id="logo"
+                    src="data:image/png;base64,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"
+                    class="logo" alt="">
+            </a>
+        </div>
+        <div id="navbar">
+            <ul id="navbar-1">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="">shop</a></li>
+                <li><a href="">blog</a></li>
+                <li><a href="">address</a></li>
+                <li><a href="">about</a></li>
+                <li><a href=""><i class="fa-solid fa-cart-shopping"></i></i></a></li>
+            </ul>
+            <div id="mobile">
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Header section -->
+
+    <script src="App.js"></script>
+</body>
+
+</html>
